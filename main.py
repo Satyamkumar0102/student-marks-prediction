@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import numpy as np
 
 # Load model, scaler, and encoders
 model = joblib.load("exam_score_model.pkl")
